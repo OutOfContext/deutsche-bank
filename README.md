@@ -6,7 +6,7 @@ As a trader I want to be able to monitor stock prices such that when they breach
 
 Note:
 
-The implementation of PriceSource and EecutionService is out of scope, assuming that it will be provided by third party.
+The implementation of PriceSource and ExecutionService is out of scope, assuming that it will be provided by third party.
 You need to listen to price updates from PriceSource and act accordingly.
 
 ## Exercise

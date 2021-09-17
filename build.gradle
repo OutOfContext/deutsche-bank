@@ -1,3 +1,10 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
 plugins {
     id 'java'
 }
@@ -11,6 +18,7 @@ repositories {
 }
 
 dependencies {
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation group: 'junit', name: 'junit', version: '4.12'
     testImplementation group: 'org.hamcrest', name: 'hamcrest', version: '2.1'
     testImplementation group: 'org.hamcrest', name: 'hamcrest-library', version: '2.1'
